@@ -1,0 +1,29 @@
+{
+  "banners": [
+    {
+      "title": "我是第一张图片",
+      "link": "http://www.baidu.com",
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492753766231&di=74a43cd3ef437ecfa11f711b6be44179&imgtype=0&src=http%3A%2F%2Fimg01.taopic.com%2F160512%2F240366-1605120T02192.jpg"
+    },
+    {
+      "title": "我是第二张图片",
+      "link": "http://www.baidu.com",
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492753766228&di=61341774eebeb4c23f3407c5d295db71&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F77%2F14%2F75x58PIC7cX_1024.jpg"
+    },
+    {
+      "title": "我是第三张图片",
+      "link": "http://www.baidu.com",
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492753964191&di=b03f567d0696d619f515abc47a11af75&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20150712%2Ftooopen_sy_133602159972.jpg"
+    },
+    {
+      "title": "我是第四张图片",
+      "link": "http://www.baidu.com",
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492753964191&di=8483f2fe9b6eeb79e1156fb2ea9757f4&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F89%2F64%2F55a6bc845aba3_1024.jpg"
+    },
+    {
+      "title": "我是第五张图片",
+      "link": "http://www.baidu.com",
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492753964190&di=f42b15db13d2bf7670bc0d20d7ec9e8d&imgtype=0&src=http%3A%2F%2Fpica.nipic.com%2F2008-03-01%2F200831132454749_2.jpg"
+    }
+  ]
+}
