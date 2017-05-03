@@ -1,15 +1,15 @@
 <template>
-  <div class="detail-page">
-    <banner :banners="banners"></banner>
-  </div>
+  <section class="detail" v-cloak>
+    <v-banner :banners="banners"></v-banner>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">
-  import Banner from 'components/banner/banner'
+  import VBanner from 'components/banner/v-banner'
 
   const ERR_OK = 0
   export default {
-    components: {Banner},
+    components: {VBanner},
     data () {
       return {banners: {}}
     },

@@ -26,14 +26,15 @@ var compiler = webpack(webpackConfig)
 // 读取模拟数据
 var appData = require('../data.json')
 var banners = appData.banners
+var news = appData.news
 
 // 定义服务端API获取数据
 var apiRouters = express.Router()
 
-apiRouters.get('/banner', function (req, res) {
+apiRouters.get('/home', function (req, res) {
   res.jsonp({
     errno: 0,
-    data: banners
+    data: {'banners': banners, 'news': news}
   })
 })
 
@@ -79,7 +80,7 @@ app.use(hotMiddleware)
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))
 
-var uri = 'http://localhost:' + port
+var uri = 'http://localhost:' + port + '/module/index.html'
 
 var _resolve
 var readyPromise = new Promise(resolve => {

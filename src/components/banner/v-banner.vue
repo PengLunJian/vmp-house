@@ -1,5 +1,5 @@
 <template>
-  <div class="banner">
+  <section class="banner">
     <swiper :options="swiperOption" ref="mySwiper">
       <swiper-slide v-for="item in banners" :key="item['id']">
         <a :href="item['link']" :title="item['title']">
@@ -8,14 +8,14 @@
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">
-  import {swiper, swiperSlide} from 'vue-awesome-swiper'
+  import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
   export default {
-    name: 'banner',
+    name: 'v-banner',
     components: {
       swiper, swiperSlide
     },
@@ -39,13 +39,14 @@
 </script>
 
 <style lang="less" rel="stylesheet/less">
-  .banner{
+  .banner {
+    height: 2rem;
     .swiper-container {
       .swiper-slide {
         font-size: 0rem;
         margin: 0rem !important;
         img {
-          height: 2.4rem;
+          height: 2rem;
         }
       }
       .swiper-pagination-bullet {
