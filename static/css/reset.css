@@ -93,7 +93,6 @@ input[type="checkbox"], input[type="radio"] {
   background-position: center center;
 }
 
-input[type="checkbox"]:checked, input[type="radio"]:checked,
 input[type="checkbox"].checked, input[type="radio"].checked {
 
 }
